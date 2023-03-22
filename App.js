@@ -3,6 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 
 import Header from "./src/pages/Header";
 import Task from "./src/pages/Task";
+import Menu from "./src/pages/Menu";
 
 export default function App() {
   return (
@@ -10,6 +11,8 @@ export default function App() {
       
       <Header />
 
+      <Menu />
+      
       <Task title={"Estudar JavaScript"}/>
       <Task title={"Fazer lista de compras"}/>
       <Task title={"Treinar Jiu jitsu"}/>
